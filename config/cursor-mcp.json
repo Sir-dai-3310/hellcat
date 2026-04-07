@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "hellcat": {
+      "command": "hellcat",
+      "args": ["mcp", "--profile", "default"],
+      "env": {}
+    }
+  }
+}

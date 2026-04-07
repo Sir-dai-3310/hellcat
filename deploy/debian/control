@@ -1,0 +1,16 @@
+Package: hellcat
+Version: 1.0.0~alpha1
+Section: net
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.10), python3-pip, nmap, sqlmap, ffuf, nuclei
+Recommends: rustscan, masscan, hydra, john, hashcat, nikto, feroxbuster
+Suggests: ghidra, metasploit-framework, adaptixc2, sstimap, xsstrike, gef
+Maintainer: Coff0xc <coff0xc@hellcat.dev>
+Description: AI-Driven Autonomous Penetration Testing Framework
+ Hellcat fuses built-in vulnerability detection, C2 beacon framework,
+ MCTS attack planning, and external tool orchestration into a single
+ MCP-native platform. Deeply adapted for Kali 2026.1.
+ .
+ Features: 120+ MCP tools, 19+ detectors, C2/lateral/persistence,
+ identity attack chains, LOTL framework, CTF/BugBounty workflows.

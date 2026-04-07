@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "hellcat": {
+      "command": "ssh",
+      "args": [
+        "-o", "StrictHostKeyChecking=no",
+        "-o", "LogLevel=ERROR",
+        "root@192.168.120.131",
+        "/opt/hellcat/start_mcp.sh"
+      ],
+      "env": {}
+    }
+  }
+}
